@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
 project(testProject)
 include_directories("/usr/include/SDL2")
-add_executable(main testfile.c)
+add_executable(main testcode.c)
 target_link_libraries(main m SDL2 SDL2_gfx)
